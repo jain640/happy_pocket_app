@@ -1,0 +1,40 @@
+{
+  "name": "wamp.js2",
+  "version": "0.2.5",
+  "description": "The Web Application Messaging Protocol for react-native and web browser.",
+  "main": "./dist/index.js",
+  "scripts": {
+    "dev": "babel -w js --out-dir dist",
+    "build": "babel --compact true --minified js --out-dir dist",
+    "clean": "rm -rf dist",
+    "prepublish": "npm run clean && npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patotoma/wamp.js2.git"
+  },
+  "keywords": [
+    "wamp",
+    "nodejs",
+    "react-native",
+    "js",
+    "autobahn",
+    "autobahn-js",
+    "websocket",
+    "rpc",
+    "pub/sub"
+  ],
+  "author": "patotoma <patotoma@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/patotoma/wamp.js2/issues"
+  },
+  "homepage": "https://github.com/patotoma/wamp.js2#readme",
+  "devDependencies": {
+    "babel-cli": "^6.16.0",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "eslint": "^3.8.1"
+  }
+}

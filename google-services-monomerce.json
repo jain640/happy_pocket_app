@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "420790021626",
+    "firebase_url": "https://monomerce-358d8.firebaseio.com",
+    "project_id": "monomerce-358d8",
+    "storage_bucket": "monomerce-358d8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:420790021626:android:1dfcb05a0ccb201b8c4843",
+        "android_client_info": {
+          "package_name": "in.cioc.monomerce"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "420790021626-q05cshvkqeo6k2nvu569lt042tejqimn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXwWRCIK1Z5vtYHJ7gwoV4KrIRifGeplc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "420790021626-q05cshvkqeo6k2nvu569lt042tejqimn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "370697243487",
+    "firebase_url": "https://happy-pocket-1558108780053.firebaseio.com",
+    "project_id": "happy-pocket-1558108780053",
+    "storage_bucket": "happy-pocket-1558108780053.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:370697243487:android:32db8d7bcd0d149eb084ea",
+        "android_client_info": {
+          "package_name": "in.cioc.happypockets"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "370697243487-a5044m18ile12udola64f6f2sb7hodp2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxKl9p-cVVWW24dMAUpIXGTeHnQly1PIs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "370697243487-a5044m18ile12udola64f6f2sb7hodp2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "370697243487-74qvbrbfouv8svfk44orm867ho9c3chk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "in.cioc.happypockets"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,28 @@
+{
+  "name": "react-native-razorpay",
+  "version": "2.1.33",
+  "summary": "React Native wrapper for Razorpay",
+  "license": "MIT",
+  "authors": {
+    "name": "Razorpay Developers",
+    "email": "developers@razorpay.com",
+    "url": "https://razorpay.com/"
+  },
+  "homepage": "https://github.com/razorpay/react-native-razorpay#readme",
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source": {
+    "git": "https://github.com/razorpay/react-native-razorpay.git",
+    "tag": "v2.1.33"
+  },
+  "source_files": "ios/**/*.{h,m}",
+  "dependencies": {
+    "React": [
+
+    ],
+    "razorpay-pod": [
+
+    ]
+  }
+}

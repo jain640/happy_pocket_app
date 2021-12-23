@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "461105754577",
+    "firebase_url": "https://shopshare-6e96c.firebaseio.com",
+    "project_id": "shopshare-6e96c",
+    "storage_bucket": "shopshare-6e96c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:461105754577:android:96ac9c0441e86a6a33b0f0",
+        "android_client_info": {
+          "package_name": "in.cioc.shopshare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "461105754577-uke78f2sllj1k6jqu5e751g67ikj8qhv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZ6RJu9gNuv6bU_gr8o7w39aDyvNpKLjs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "461105754577-uke78f2sllj1k6jqu5e751g67ikj8qhv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

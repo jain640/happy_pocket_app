@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "Happy Pockets",
+    "slug": "Ecommerce",
+    "privacy": "public",
+    "sdkVersion": "37.0.0",
+    "platforms": [
+      "android",
+      "ios"
+    ],
+    "version": "1.8.7",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon1.png",
+    "splash": {
+      "image": "./assets/images/happypocketsSplash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#efa834"
+    },
+    "updates": {
+      "enabled": true,
+      "checkAutomatically": "ON_ERROR_RECOVERY",
+      "fallbackToCacheTimeout": 0
+    },
+    "notification": {
+      "icon": "./assets/images/icon1.png"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "in.cioc.happypockets",
+      "infoPlist": {
+        "UIBackgroundModes": [
+          "location",
+          "fetch"
+        ]
+      }
+    },
+    "android": {
+      "versionCode": 17,
+      "googleServicesFile": "./google-services.json",
+      "package": "in.cioc.happypockets"
+    },
+    "entryPoint": "node_modules/expo/AppEntry.js"
+  }
+}

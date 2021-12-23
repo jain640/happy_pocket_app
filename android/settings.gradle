@@ -1,0 +1,24 @@
+apply from: '../node_modules/react-native-unimodules/gradle.groovy'
+include ':react-native-otp-verify'
+project(':react-native-otp-verify').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-otp-verify/android')
+include ':react-native-sms-retriever'
+project(':react-native-sms-retriever').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-sms-retriever/android')
+include ':@react-native-community_netinfo'
+project(':@react-native-community_netinfo').projectDir = new File(rootProject.projectDir, '../node_modules/@react-native-community/netinfo/android')
+include ':@react-native-community_netinfo'
+project(':@react-native-community_netinfo').projectDir = new File(rootProject.projectDir, '../node_modules/@react-native-community/netinfo/android')
+include ':@react-native-community_netinfo'
+project(':@react-native-community_netinfo').projectDir = new File(rootProject.projectDir, '../node_modules/@react-native-community/netinfo/android')
+include ':react-native-vector-icons'
+project(':react-native-vector-icons').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-vector-icons/android')
+includeUnimodulesProjects()
+rootProject.name = 'HappyPockets'
+
+apply from: '../node_modules/react-native-unimodules/gradle.groovy'
+includeUnimodulesProjects()
+
+apply from: file("../node_modules/@react-native-community/cli-platform-android/native_modules.gradle");
+applyNativeModulesSettingsGradle(settings)
+
+include ':app'
+include ':unimodules-react-native-adapter'
